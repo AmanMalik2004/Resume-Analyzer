@@ -1,0 +1,4 @@
+frontend
+venv
+.env
+app.py
