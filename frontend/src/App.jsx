@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import "./App.css";
 
-const API = import.meta.env.VITE_API_URL || "";
+const API = import.meta.env.VITE_API_URL || "http://localhost:8000";
 const STEPS = [
   "Reading your resume…",
   "Comparing it against the job…",
