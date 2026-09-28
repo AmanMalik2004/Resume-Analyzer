@@ -57,3 +57,7 @@ def chat_endpoint(req: ChatRequest):
         return {"answer": answer}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"AI call failed: {e}")
+
+@app.get("/")
+def root():
+    return {"status": "ResumeLens API is running"}
