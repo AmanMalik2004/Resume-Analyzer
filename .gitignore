@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node / React
+node_modules/
+dist/
+
+# Personal files
+*.pdf
+*.docx
+
+# Editor / OS junk
+.vscode/
+.idea/
+.DS_Store
